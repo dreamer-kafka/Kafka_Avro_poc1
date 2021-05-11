@@ -1,0 +1,10 @@
+{
+  "namespace": "com.example",
+  "type": "record",
+  "name": "Customer",
+  "fields": [
+    {"name": "first_name","type": "string","doc": "Firstname of customer"},
+    {"name": "Last_name","type": "string","doc": "Lastname of customer"},
+    {"name": "Customer_id","type": "int","default": 0}
+  ]
+}
